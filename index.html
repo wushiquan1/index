@@ -15,9 +15,25 @@
 			font-size: 25px;
 			margin: 0px 35px;
 			text-align: center;
+			list-style: none;
+			cursor: pointer;
+			width: 105px;
+
+
+		}
+		ul{
+			margin-left: 10%;
+		}
+		li:hover{
+			color: red;
+			border-top: red 4px solid;
+			background-color: white;
+
+		
 
 		}
 		body{
+			width: 1920px;
 			background-color:#efede6;
 		}
 		#dah{
@@ -28,46 +44,59 @@
 			height: 35px;
 			width: auto;
 			background-color: white;
-
 		}
+	
 		#toubu span{
 			cursor: pointer;
 			float: right;
 			margin: 0px 35px;
 			color: #ccc;
 			line-height: 35px;
+		
 		}
 		#toubu span:hover{
 			color: #000;
 			font-size: 20px;
 		}
 		#tupian{
-			height: 150px;
+			height: 130px;
 			width: auto;
 		}
+		.shuru{
+			border-radius: 20px;
+			height: 25px;
+			width: 60px;
 
+		}
+		
+		.shuru:hover{
+			height: 30px;
+			width: 105px;
+
+		}
+	/*	.er{
+				margin-right: 300px;
+		}
+*/
 
 	</style>
 </head>
 <body>
 	<div id="toubu">		
 			<span>Home</span>	
-			<span>关于我自己</span>
-
-
-
+			<span class="er">关于我自己</span>
 				</div>	
 
 
 
 	<div id="tupian">					
-
+ 		<img src="tup.png" width="1920px" height="130px">
 
 				</div>	
 
 	<div id="dah">	   
 			<ul>	
-					<li>首页</li>
+					<li class="yi">首页</li>
 					<li>心情随笔</li>
 					<li>追忆	</li>
 					<li>技术分享</li>
@@ -75,9 +104,9 @@
 					<li>书屋</li>
 					<li>QQ留言</li>
 					<li>关于我们</li>
+					<li><input class="shuru" type="text" placeholder='回车搜索' name=""></li>
 
 			</ul>
-
 				</div>	
 
 
